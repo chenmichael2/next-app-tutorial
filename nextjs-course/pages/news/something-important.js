@@ -1,4 +1,4 @@
-// our-domain.com/new/something-important
+// our-domain.com/news/something-important
 
 function DetailPage() {
     return <h1>The Detail Page</h1>
