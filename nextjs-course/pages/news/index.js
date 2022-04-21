@@ -7,6 +7,7 @@ function NewsPage() {
             <h1>The News Page</h1>
             <ul>
                 <li></li>
+                <li></li>
             </ul>
         </Fragment>
     )
