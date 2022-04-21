@@ -1,4 +1,5 @@
 // our-domain.com/news
+import Link from 'next/link';
 import { Fragment } from 'react';
 
 function NewsPage() {
