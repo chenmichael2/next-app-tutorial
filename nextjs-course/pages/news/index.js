@@ -2,11 +2,14 @@
 import { Fragment } from 'react';
 
 function NewsPage() {
-    return
+    return (
         <Fragment>
             <h1>The News Page</h1>
-            <ul></ul>
+            <ul>
+                <li></li>
+            </ul>
         </Fragment>
+    )
 }
 
 export default NewsPage;
