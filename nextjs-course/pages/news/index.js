@@ -1,5 +1,5 @@
 // our-domain.com/news
-import Link from 'next/link';
+import Link from 'next/link'; // Makes it a single application
 import { Fragment } from 'react';
 
 function NewsPage() {
