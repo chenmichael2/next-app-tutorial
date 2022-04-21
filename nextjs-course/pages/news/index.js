@@ -6,7 +6,7 @@ function NewsPage() {
         <Fragment>
             <h1>The News Page</h1>
             <ul>
-                <li><a>First List Item</a></li>
+                <li><a href="">First List Item</a></li>
                 <li>Something else</li>
             </ul>
         </Fragment>
