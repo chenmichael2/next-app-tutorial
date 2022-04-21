@@ -1,7 +1,7 @@
 // our-domain.com/news/something-important
 // [] square brackets allow different values (dynamic pages)
 
-
+import { useRouter } from 'next/router';
 
 function DetailPage() {
     return <h1>The Detail Page</h1>
