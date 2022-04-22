@@ -6,9 +6,9 @@ function Navbar() {
             <div className="logo">
                 <h1>Ninja List</h1>
             </div>
-            <Link><a>Home</a></Link>
-            <Link><a>About</a></Link>
-            <Link><a>NavBar List</a></Link>
+            <Link href="/"><a>Home</a></Link>
+            <Link href="/about"><a>About</a></Link>
+            <Link href="/navbar-list"><a>NavBar List</a></Link>
         </nav>
     )
 }
