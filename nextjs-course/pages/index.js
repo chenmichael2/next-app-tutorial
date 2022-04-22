@@ -1,6 +1,6 @@
 // our-domain.com/
 
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar"; // this is to be able to add the component
 
 function HomePage() {
     return (
