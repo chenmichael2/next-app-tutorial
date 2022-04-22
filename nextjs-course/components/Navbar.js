@@ -7,7 +7,7 @@ function Navbar() {
                 <h1>Ninja List</h1>
             </div>
             <Link href="/"><a>Home</a></Link>
-            <Link href="/about"><a>About</a></Link>
+            <Link href="/news"><a>news</a></Link>
             <Link href="/navbar-list"><a>NavBar List</a></Link>
         </nav>
     )
