@@ -5,7 +5,9 @@ import { useRouter } from 'next/router';
 
 function NotFound() {
     useEffect(() => {
-        console.log('use effect ran');
+        setTimeout(() => {
+            
+        })
     }, [])
     return (
         <div className="not-found">
