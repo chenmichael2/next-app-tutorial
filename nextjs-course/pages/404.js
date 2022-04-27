@@ -1,5 +1,6 @@
 // for any routes that dont exist
 import Link from "next/link"
+import { useEffect } from 'react';
 
 function NotFound() {
     return (
