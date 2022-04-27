@@ -4,9 +4,11 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 function NotFound() {
+    const router = useRouter();
     useEffect(() => {
         setTimeout(() => {
-
+            // router.go(-1); go back and +1 goes foward
+            router.push('/'); //redirect them to home page
         }, 3000)
     }, [])
     return (
