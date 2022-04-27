@@ -4,6 +4,9 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 function NotFound() {
+    useEffect(() => {
+        console.log('use effect ran');
+    }, [])
     return (
         <div className="not-found">
             <h1>Oooops....</h1>
