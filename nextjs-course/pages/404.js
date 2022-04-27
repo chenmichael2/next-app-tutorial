@@ -6,8 +6,8 @@ import { useRouter } from 'next/router';
 function NotFound() {
     useEffect(() => {
         setTimeout(() => {
-            
-        })
+
+        }, 3000)
     }, [])
     return (
         <div className="not-found">
